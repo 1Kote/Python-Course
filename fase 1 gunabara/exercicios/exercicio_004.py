@@ -1,0 +1,16 @@
+var = input('Digite algo: ')
+
+varType = type(var)
+varAlphaB = var.isalpha()
+varAlphaNum = var.isalnum()
+varUp = var.isupper()
+varLow = var.islower()
+varCap = var.isprintable()
+varNum = var.isdecimal()
+
+print('O tipo primitivo é {}'.format(varType))
+print('É alfabetico? {}'.format(varUp))
+print('É afanumerico? {}'.format(varAlphaNum))
+print('Está em letras maiusculas? {}'.format(varUp))
+print('Está em letras minusculas? {}'.format(varLow))
+print('Está capitalizada? {}'.format(varCap))
